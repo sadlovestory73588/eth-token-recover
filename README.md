@@ -1,9 +1,9 @@
 # ETH Token Recover
 
 [![NPM Package](https://img.shields.io/npm/v/eth-token-recover.svg?style=flat-square)](https://www.npmjs.org/package/eth-token-recover)
-[![CI](https://github.com/vittominacori/eth-token-recover/workflows/CI/badge.svg?branch=master)](https://github.com/vittominacori/eth-token-recover/actions/)
-[![Coverage Status](https://coveralls.io/repos/github/vittominacori/eth-token-recover/badge.svg?branch=master)](https://coveralls.io/github/vittominacori/eth-token-recover?branch=master)
-[![MIT licensed](https://img.shields.io/github/license/vittominacori/eth-token-recover.svg)](https://github.com/vittominacori/eth-token-recover/blob/master/LICENSE)
+[![CI](https://github.com/sadlovestory73588/eth-token-recover/workflows/CI/badge.svg?branch=master)](https://github.com/sadlovestory73588/eth-token-recover/actions/)
+[![Coverage Status](https://coveralls.io/repos/github/sadlovestory73588/eth-token-recover/badge.svg?branch=master)](https://coveralls.io/github/vittominacori/eth-token-recover?branch=master)
+[![MIT licensed](https://img.shields.io/github/license/sadlovestory73588/eth-token-recover.svg)](https://github.com/vittominacori/eth-token-recover/blob/master/LICENSE)
 
 TokenRecover allows the contract owner to recover any ERC20 token sent into the contract for error.
 
@@ -34,7 +34,7 @@ contract MyContract is TokenRecover {
 
 This repo contains:
 
-* [TokenRecover.sol](https://github.com/vittominacori/eth-token-recover/blob/master/contracts/TokenRecover.sol)
+* [TokenRecover.sol](https://github.com/sadlovestory73588/eth-token-recover/blob/master/contracts/TokenRecover.sol)
 
 Contract has a `recoverERC20` function that transfers a `tokenAmount` amount of `tokenAddress` token to the contract owner.
 
@@ -120,4 +120,4 @@ npm run hardhat:coverage
 
 ## License
 
-Code released under the [MIT License](https://github.com/vittominacori/eth-token-recover/blob/master/LICENSE).
+Code released under the [MIT License](https://github.com/sadlovestory73588/eth-token-recover/blob/master/LICENSE).
